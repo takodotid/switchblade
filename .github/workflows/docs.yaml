@@ -31,12 +31,12 @@ jobs:
         runs-on: ubuntu-24.04
         steps:
             - name: Checkout
-              uses: actions/checkout@v4.2.2
+              uses: actions/checkout@v4.3.1
               with:
                   fetch-depth: 0 # Fetch all history for git commands
 
             - name: Setup pnpm
-              uses: pnpm/action-setup@v4.1.0
+              uses: pnpm/action-setup@v4.2.0
 
             - name: Setup Node.js
               uses: actions/setup-node@v4.4.0
